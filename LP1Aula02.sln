@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncDec", "IncDec\IncDec.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpInt", "OpInt\OpInt.csproj", "{D0D37AE8-3478-466F-88DB-0049580A1A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpBool", "OpBool\OpBool.csproj", "{82585227-B51B-4304-A3A9-9EBCF91ABDF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{D0D37AE8-3478-466F-88DB-0049580A1A1C}.Release|x64.Build.0 = Release|Any CPU
 		{D0D37AE8-3478-466F-88DB-0049580A1A1C}.Release|x86.ActiveCfg = Release|Any CPU
 		{D0D37AE8-3478-466F-88DB-0049580A1A1C}.Release|x86.Build.0 = Release|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Debug|x64.Build.0 = Debug|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Debug|x86.Build.0 = Debug|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Release|x64.ActiveCfg = Release|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Release|x64.Build.0 = Release|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Release|x86.ActiveCfg = Release|Any CPU
+		{82585227-B51B-4304-A3A9-9EBCF91ABDF9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
