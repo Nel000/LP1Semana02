@@ -6,8 +6,7 @@ namespace ValoresEspeciais
     {
         static void Main(string[] args)
         {
-
-
+            // Print max and min values for multiple types
             Console.WriteLine(sbyte.MaxValue);
             Console.WriteLine(sbyte.MinValue);
             Console.WriteLine(short.MaxValue);
@@ -33,13 +32,21 @@ namespace ValoresEspeciais
             Console.WriteLine(decimal.MaxValue);
             Console.WriteLine(decimal.MinValue);
 
+            // Print positive and negative infinity and NaN values for float and double types
             Console.WriteLine(float.PositiveInfinity);
             Console.WriteLine(float.NegativeInfinity);
             Console.WriteLine(float.PositiveInfinity / float.PositiveInfinity);
-            
             Console.WriteLine(double.PositiveInfinity);
             Console.WriteLine(double.NegativeInfinity);
             Console.WriteLine(double.NaN);
+
+            // Overflow and underflow multiple integral types
+            short sMax = short.MaxValue, sMin = short.MinValue;
+            int iMax = int.MaxValue;
+            Console.WriteLine((short) (sMax + 1));
+            Console.WriteLine((short) (sMin - 1));
+            Console.WriteLine((int) (iMax + 1));
+            Console.WriteLine((int) (iMin - 1));
         }
     }
 }
