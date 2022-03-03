@@ -15,9 +15,14 @@ namespace ChatBot
             // Run cycle while exit is false
             do
             {
+                // Introductory message
+                Console.WriteLine("What is your question?");
+
+                // Go through all possible questions and choose appropriate answer
                 switch (question)
                 {
                     case "EXIT":
+                        // End application
                         exit = true;
                         break;
                     case "What is your name?":
@@ -31,6 +36,9 @@ namespace ChatBot
                         break;
                     case "How will you achieve your goal?":
 
+                        break;
+                    default:
+                        response = "Who's to say...";
                         break;
                 }
             } while (!exit);
