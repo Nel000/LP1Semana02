@@ -42,11 +42,16 @@ namespace ValoresEspeciais
 
             // Overflow and underflow multiple integral types
             short sMax = short.MaxValue, sMin = short.MinValue;
-            int iMax = int.MaxValue;
+            int iMax = int.MaxValue, iMin = int.MinValue;
             Console.WriteLine((short) (sMax + 1));
             Console.WriteLine((short) (sMin - 1));
             Console.WriteLine((int) (iMax + 1));
             Console.WriteLine((int) (iMin - 1));
+
+            // Print result of overflow in real types
+            float f1 = 2 * float.MaxValue, f2 = float.MaxValue + 1;
+            Console.WriteLine(f1);
+            Console.WriteLine(f2);
         }
     }
 }
