@@ -24,7 +24,7 @@ namespace Cilindro
             radius = double.Parse(sRadius);
 
             // Calculate volume and surface area
-            volume = pi + (radius * radius) + height;
+            volume = pi * (radius * radius) * height;
             area = 2 * pi * radius * (radius + height);
 
             // Print values for cylinder volume and area
