@@ -6,6 +6,8 @@ namespace ValoresEspeciais
     {
         static void Main(string[] args)
         {
+
+
             Console.WriteLine(sbyte.MaxValue);
             Console.WriteLine(sbyte.MinValue);
             Console.WriteLine(short.MaxValue);
@@ -30,6 +32,14 @@ namespace ValoresEspeciais
             Console.WriteLine(double.MinValue);
             Console.WriteLine(decimal.MaxValue);
             Console.WriteLine(decimal.MinValue);
+
+            Console.WriteLine(float.PositiveInfinity);
+            Console.WriteLine(float.NegativeInfinity);
+            Console.WriteLine(float.PositiveInfinity / float.PositiveInfinity);
+            
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NegativeInfinity);
+            Console.WriteLine(double.NaN);
         }
     }
 }
