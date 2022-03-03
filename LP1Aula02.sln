@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilindro", "Cilindro\Cilind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoresEspeciais", "ValoresEspeciais\ValoresEspeciais.csproj", "{D634E2D7-4F00-444C-9394-953F4BE574E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "IfExample\IfExample.csproj", "{204DF912-7895-44AE-B9D9-3628F958C20D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{D634E2D7-4F00-444C-9394-953F4BE574E5}.Release|x64.Build.0 = Release|Any CPU
 		{D634E2D7-4F00-444C-9394-953F4BE574E5}.Release|x86.ActiveCfg = Release|Any CPU
 		{D634E2D7-4F00-444C-9394-953F4BE574E5}.Release|x86.Build.0 = Release|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Debug|x64.Build.0 = Debug|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Debug|x86.Build.0 = Debug|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Release|x64.ActiveCfg = Release|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Release|x64.Build.0 = Release|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Release|x86.ActiveCfg = Release|Any CPU
+		{204DF912-7895-44AE-B9D9-3628F958C20D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
