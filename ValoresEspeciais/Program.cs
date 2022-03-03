@@ -49,9 +49,14 @@ namespace ValoresEspeciais
             Console.WriteLine((int) (iMin - 1));
 
             // Print result of overflow in real types
-            float f1 = 2 * float.MaxValue, f2 = float.MaxValue + 1;
-            Console.WriteLine(f1);
-            Console.WriteLine(f2);
+            double d1 = 2 * double.MaxValue, d2 = double.MaxValue + 1;
+            Console.WriteLine(d1);
+            Console.WriteLine(d2);
+
+            // Print result of underflow in real types
+            float f1, f2;
+            f1 = f2 = 10000.0f;
+            Console.WriteLine(f1 == f2 + 0.0001f);
         }
     }
 }
