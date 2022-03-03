@@ -10,8 +10,6 @@ namespace Cilindro
             string sHeight, sRadius;
             double height, radius, volume, area;
 
-            double pi = 3.1415926;
-
             // Introductory message
             Console.WriteLine("Please type the height and radius of a cylinder");
 
@@ -24,8 +22,8 @@ namespace Cilindro
             radius = double.Parse(sRadius);
 
             // Calculate volume and surface area
-            volume = pi * (radius * radius) * height;
-            area = 2 * pi * radius * (radius + height);
+            volume = Math.PI * (Math.Pow(radius, 2)) * height;
+            area = 2 * Math.PI * radius * (radius + height);
 
             // Print values for cylinder volume and area
             Console.WriteLine();
