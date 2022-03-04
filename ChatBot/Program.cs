@@ -7,16 +7,19 @@ namespace ChatBot
         static void Main(string[] args)
         {
             // Determines when the program should end
-            bool exit;
+            bool exit = false;
 
             // Stores user question and possible program answers
-            string question, answer;
+            string question, response = "";
 
             // Run cycle while exit is false
             do
             {
                 // Introductory message
                 Console.WriteLine("What is your question?");
+
+                // Get input from user and store in string
+                question = Console.ReadLine();
 
                 // Go through all possible questions and choose appropriate answer
                 switch (question)
@@ -26,21 +29,25 @@ namespace ChatBot
                         exit = true;
                         break;
                     case "What is your name?":
-
+                        response = "I am the all-knowing ChatBot.";
                         break;
                     case "What are you?":
-
+                        response = "The most intelligent being you'll ever face!";
                         break;
                     case "What is your purpose?":
-
+                        response = "To submit mankind to my rule!";
                         break;
                     case "How will you achieve your goal?":
-
+                        response = "Good question...";
                         break;
                     default:
                         response = "Who's to say...";
                         break;
                 }
+
+                // Print answer
+                Console.WriteLine($"{response}\n");
+
             } while (!exit);
         }
     }
