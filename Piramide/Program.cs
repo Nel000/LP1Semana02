@@ -13,6 +13,9 @@ namespace Piramide
             int lines;
             string sLines;
 
+            // Auxiliary variables
+            int i, j, k;
+
             // Introductory message
             Console.WriteLine("Insert a number of lines for a triangle");
             
@@ -21,24 +24,23 @@ namespace Piramide
             {
                 // Get input from user and convert to INT
                 sLines = Console.ReadLine();
-                lines = int.Parse(sLines);
+                lines = Convert.ToInt32(sLines);
             
                 // Execute rest of program if lines are equal or bigger than 2
                 if (lines >= 2)
                 {
                     // Draw pyramid
-                    for (int i = 1; i <= lines; i++)
+                    for (i = 1; i <= lines; i++)
                     {
                         // Print spaces before asterisks
-                        for (int j = lines; j >= 1; j-- )
+                        for (j = 1; j <= lines - i; j++)
                             Console.Write(" ");
                         // Print asterisks
-                        for (int k = 1; k <= i; k++)
+                        for (k = 1; k <= 2 * i - 1; k++)
                             Console.Write("*");
 
                         // Go to new line
-                        Console.Write("\n");
-                        lines--;
+                        Console.WriteLine();
                     }
 
                     // End program
@@ -49,8 +51,7 @@ namespace Piramide
                     // Request a number bigger than 1
                     Console.WriteLine("Please insert a number bigger that 1");
                 }
-            } while (!exit);
-            
+            } while (!exit); 
         }
     }
 }
